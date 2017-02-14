@@ -1,0 +1,242 @@
+@media (max-width: 1250px) {
+  .header__book {
+    display: none;
+  }
+  .header__book--bookbutton {
+    display: block;
+  }
+  .menu li a {
+    padding: 21px 20px;
+  }
+
+}
+@media (max-width: 970px) {
+  .header__contacts {
+    width: 40%;
+    padding-left: 5%;
+  }
+  .header__telephoneblock {
+    padding: 6px 0px 6px 15%;
+  }
+  .header__telephoneicon {
+    left: 10px;
+
+  }
+  .tiles {
+    text-align: center;
+    padding: 10px;
+    height: 213px;
+  }
+  .tiles__header {
+    text-align: center;
+  }
+  .tiles__description {
+    width: auto;
+  }
+  .tiles__img {
+    text-align: center;
+    position: relative;
+    right: 0;
+    top: 0;
+    margin-top: 20px;
+  }
+  .popular__item {
+    width: 27%;
+    margin: 10px 1%;
+  }
+  .tabs__img {
+    right: 0;
+  }
+}
+@media (max-width: 880px) {
+  .header__bookmarkstext, .header__backettext {
+    font-size: 18px;
+  }
+  .popular__headertext {
+    font-size: 25px;
+    margin-top: 7px;
+  }
+
+
+}
+
+
+
+@media (max-width: 777px) {
+  .header__bookmarksblock {
+    margin-left: 0;
+  }
+  .header__basketblock {
+    margin-left: 5px;
+  }
+  .header__telephonetext {
+    font-size: 20px;
+  }
+  .header__logotext {
+    padding-left: 0;
+  }
+  .popular__item {
+    width: 40%;
+  }
+  .contacts {
+    padding: 20px 0 100px 0;
+  }
+  .contacts__descriptiontext {
+    width: 100%;
+  }
+  .contacts__aboutblock, .contacts__mapblock {
+    float: none;
+    width: auto;
+    margin-top: 50px;
+  }
+  .contacts__mapimg {
+    width: 50%;
+  }
+  .contacts__button {
+    width: 60%;
+  }
+  .services {
+    padding-bottom: 100px;
+  }
+  .tabs__leftblock {
+    float: none;
+    width: 100%;
+  }
+  .tabs__rightblock {
+    float: none;
+    width: 100%;
+    padding-bottom: 120px;
+    padding-left: 0;
+  }
+  .tabs__headertext {
+    text-align: center;
+  }
+  .tabs__contenttext {
+    width: 100%;
+  }
+  .tabs__img {
+    width: 160px;
+    height: auto;
+    top: 90%;
+    left: 50%;
+    margin-left: -80px;
+  }
+}
+
+@media (max-width: 666px) {
+  .header__header {
+    height: 100px;
+  }
+  .header__searchform {
+    position: absolute;
+    top: 50px;
+    width: 50%;
+  }
+  .header__bookmarksblock, .header__basketblock {
+    float: none;
+    position: absolute;
+    right: 0;
+  }
+  .header__bookmarksblock {
+    top: 0;
+  }
+  .header__basketblock {
+    top: 40px;
+  }
+  .header__logotext {
+    float: none;
+    width: auto;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 30px;
+    padding-left: 0;
+  }
+  .header__contacts {
+    width: 50%;
+    padding-left: 0;
+  }
+  .header__telephoneblock {
+    padding: 6px 0px 6px 15%;
+  }
+  .header__buttonwrapper {
+    width: 50%;
+  }
+  .carouselblock {
+    text-align: center;
+  }
+  .tiles {
+    display: inline-block;
+    width: 48%;
+  }
+  .tiles--yellow:first-child {
+    margin: 1%;
+  }
+  .carousel {
+    display: none;
+  }
+  .carousel--666 {
+    display: block;
+    width: 100%;
+  }
+  .popular__headertext {
+    float: none;
+    margin-bottom: 20px;
+  }
+  .popular__headertextall {
+    float: none;
+    display: block;
+    margin: 0 auto;
+  }
+  .popular__item {
+    width: 47%;
+  }
+  .popular--firm .popular__item--bosch,
+  .popular--firm .popular__item--makita,
+  .popular--firm .popular__item--dewalt,
+  .popular--firm .popular__item--inter,
+  .popular--firm .popular__item--hitachi,
+  .popular--firm .popular__item--lg,
+  .popular--firm .popular__item--aeg,
+  .popular--firm .popular__item--metabo {
+    width: 40%;
+  }
+  .prefoter__leftblock, .prefoter__rightblock {
+    width: 100%;
+    float: none;
+  }
+}
+
+@media (max-width: 470px) {
+  .wrapper {
+    width: 90%;
+  }
+  .header__logotext {
+    padding-left: 0;
+  }
+  .header__contacts {
+    float: none;
+    width: 100%;
+    padding-left: 0;
+  }
+  .header__buttonwrapper {
+    width: 60%;
+    padding: 0;
+    margin: 0 auto;
+    float: none;
+  }
+  .header__inbutton, .header__regbutton, .header__book--bookbutton {
+    margin-left: 0;
+  }
+  .tiles {
+    width: 100%;
+  }
+  .popular__buyblock {
+    padding: 30px 10% 10px 10%
+  }
+  .popular__itemprice {
+    background-size: 130px;
+  }
+  .contacts__mapimg {
+    width: 70%;
+  }
+}
